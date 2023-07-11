@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMID Moctar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef4fcadfa3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/loge.png" alt="logo">
+            <ul >
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Service</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"  onclick="closemenu()"></i>     
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-texte">
+            
+            <h1>Bienvenue sur mon <span>portefolio</span></h1>
+            <p> Data Analyste & Bussiness Intelligent</p>
+            <h3>Etudiant en prémiere année de <br>Mastère à IA SCHOOL</h3>
+            </div>
+
+    </div>
+
+   
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/moctar.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">apropos</h1>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nisi iure in enim laborum hic illum est reprehenderit dolorem, dolore temporibus corporis rem aperiam dignissimos debitis consequatur maiores cum! Voluptas?</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Compétance')">Compétance</p>
+                    <p class="tab-links"  onclick="opentab('Expeérience')">Expeérience </p>
+                    <p class="tab-links"  onclick="opentab('Cursus')">Cursus </p>
+                </div>
+                <div class="tab-contents active-tab" id="Compétance">
+                    <ul>
+                        <li> <span>Data Analyste</span><br>Création de Dashbord</li>
+                        <li> <span>Extraction de donnée brut</span><br>extraire de donnée dans une base donnée <br>Scraping de page web avec python via BeautefaulSoup </li>
+                        <li> <span>Analyse de donnée:</span> <br> Power BI & Power Query/ R Studio/ python/ Excel (VBA)</li>
+                    </ul>
+
+                </div>
+
+                <div class="tab-contents  "id="Expeérience">
+                    <ul>
+                        <li> <span>01 mai 2023 - En poste</span><br>Job étudiant chez L'Elerc</li>
+                        <li> <span>05 Fév 2023 - 4 Mai 2023</span><br>Stage Chargée de Projet IA Chez Protholi python </li>
+                        <li> <span>20 juin 2022 - 30 Aout 2022:</span> <br> Job étudiant d'été Chez Hermez </li>
+                    </ul>
+
+                </div>
+
+                <div class="tab-contents "id="Cursus">
+                    <ul>
+                        <li> <span>2023 - 2024</span><br>1ère année de Mastere à IA School</li>
+                        <li> <span>2022 - 2023</span><br>Bachlore 3 à IA School  </li>
+                        <li> <span>2021 - 2022</span> <br> 2ème année de Cycle Préparatoire de Grand à HETIC</li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------service------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Mon Service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2> Data Analyste</h2>
+                <p>us sit et? Doloremque     s ducimus dignissimos eligendi,</p>
+                <a href="#"> lorem more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2> Data Scientiste</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#"> lorem more</a>
+            </div>
+    
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2> Bussiness Intelligent </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#"> lorem more</a>
+
+            </div>
+           
+        </div>
+        
+
+    </div>
+</div>
+<!---------------portfolio----------->
+
+<div id="portfolio">
+    <div class="container">
+
+        <h1 class="sub-title">Mes Projets</h1>
+        <div class="work-list">
+            <div class="work">
+                
+                <img src="image/analyse.png" >
+                <div class="layer">
+                    <h3>Fashine Ethic Projet IA</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                
+                <img src="image/sophijeconte.png" >
+                <div class="layer">
+                    <h3>Morphisme d'image Projet GemaLab</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                
+                <img src="image/bus.png" >
+                <div class="layer">
+                    <h3>Bussiness Model</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btm">voir plus</a>
+
+    </div>
+
+</div> 
+
+<!------------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contacte</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>moctar.hamid.edu@groupe-gema.com</p>
+                <p> <i class="fa-solid fa-phone"></i>0751424643</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/moctar-hamid-347811124/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="image/CV-Data-analyste_b_AL_Moctar.pdf" download class="btm btm2"> CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="votr Nom" required>
+                    <input type="email" name="Email" placeholder="Votre Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Votre message"></textarea>
+                    <button type="submit" class=" btm btm2">envoyer</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Moctar 2023 <i class="fa-brands fa-free-code-camp"></i></p>
+
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+  
+<script>
+    window.addEventListener("DOMContentLoaded", (event) => {
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWJiYQ2Qah0TYzXvune3C9OFTbPyiNdk3kZtVoatJwRwWTHi0QdBtRkI8SxIku7RLz/exec'
+    const form = document.getElementById('submit-to-google-sheet')
+  
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { 
+            method: 'POST', 
+            body: new FormData(form),
+            mode: 'no-cors'
+        })
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+})
+
+</script>
+
+</body>
+</html>
